@@ -9,7 +9,6 @@ import { FaReact } from "react-icons/fa"
 const NavBar = () => {
   const [navLanding, setNavLanding] = useState(false);
 
-
   const handleNavLanding = () => {
     setNavLanding(!navLanding);
   };
@@ -49,10 +48,10 @@ const NavBar = () => {
               <div className='pb-2'>Experiencia</div>
               <div className='pb-2'>Educacion</div>
               <div className="flex items-center">
-                <a className='p-2'>
+                <a className='p-2' target="_blank" href='https://www.linkedin.com/in/aron-resnicoff-333b2a215/'>
                   <AiFillLinkedin size={37} />
                 </a>
-                <a className='p-2'>
+                <a className='p-2' target="_blank" href='https://github.com/aronresni'>
                   <BsGithub size={35} />
                 </a>
               </div>
