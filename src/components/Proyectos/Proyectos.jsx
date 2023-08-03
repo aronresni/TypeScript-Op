@@ -1,6 +1,6 @@
 import React from 'react'
 import accesbank from "../../assets/accesbank.png"
-import modalProyectos from "../Proyectos/modalProyectos"
+
 
 const Proyectos = () => {
     return (

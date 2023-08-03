@@ -4,6 +4,7 @@ import SobreMi from './components/SobreMi';
 import Stack from './components/Stack';
 import Footer from "./components/Footer"
 import Proyectos from './components/Proyectos/Proyectos';
+import Educacion from './components/Educacion';
 function App() {
   return (
     <div className="App select-none">
@@ -11,6 +12,7 @@ function App() {
       <SobreMi />
       <Stack />
       <Proyectos />
+      <Educacion/>
       <Footer />
     </div>
   );
