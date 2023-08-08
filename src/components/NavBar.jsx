@@ -43,8 +43,12 @@ const NavBar = () => {
             id="navbar-default"
           >
             <ul className={`text-2xl font-medium flex flex-col items-center md:p-0 rounded-lg bg-gray-50 xl:text-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-dark`}>
-              <div className='pb-2'>Sobre mi</div>
+             
+                <div className='pb-2' >Sobre mi</div>
+             
+              <a href='#proyectos'>
               <div className='pb-2'>Proyectos</div>
+              </a>
               <div className='pb-2'>Experiencia</div>
               <div className='pb-2'>Educacion</div>
               <div className="flex items-center">

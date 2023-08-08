@@ -3,7 +3,7 @@ import React from 'react'
 const Educacion = () => {
     return (
     <div>
-        <div className='h-[70vh] bg-dark'>
+        <div className='h-[70vh] bg-white'>
 
         </div>
     </div>
