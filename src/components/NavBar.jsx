@@ -51,10 +51,6 @@ const NavBar = () => {
                 <div className='pb-2'>Experiencia</div>
 
               </a>
-              <a href='#educacion'>
-
-                <div className='pb-2'>Educacion</div>
-              </a>
               <a href='#contacto'>
                 <div className='pb-2' >Contactame</div>
               </a>
