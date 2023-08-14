@@ -34,7 +34,7 @@ const Contact = () => {
     }
     return (
         <div id='contacto' className='h-[15vh] bg-dark'>
-            <h1 className='tittle p-5 tittle text-4xl md:text-4xl sm:text-4xl font-bold'>Contactame</h1>
+            <h1 className='tittle p-5 tittle text-4xl md:text-4xl sm:text-4xl font-bold'>Contact Me</h1>
             <div className='p-5'>
                 <form onSubmit={handleSubmit}>
                     <div class="grid gap-6 mb-6 md:grid-cols-2">

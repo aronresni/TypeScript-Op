@@ -45,14 +45,14 @@ const NavBar = () => {
             <ul className={`text-2xl font-medium flex flex-col items-center md:p-0 rounded-lg bg-gray-50 xl:text-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-dark`}>
 
               <a href='#proyectos'>
-                <div className='pb-2'>Proyectos</div>
+                <div className='pb-2'>Projects</div>
               </a>
               <a href='#experiencia'>
-                <div className='pb-2'>Experiencia</div>
+                <div className='pb-2'>Experience</div>
 
               </a>
               <a href='#contacto'>
-                <div className='pb-2' >Contactame</div>
+                <div className='pb-2' >Contact Me</div>
               </a>
               <div className="flex items-center">
                 <a className='p-2' target="_blank" href='https://www.linkedin.com/in/aron-resnicoff-333b2a215/'>

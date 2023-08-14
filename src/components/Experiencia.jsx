@@ -5,7 +5,7 @@ const Experiencia = () => {
     return (
         <div className='h-[70vh] bg-dark' id='experiencia'>
             <div>
-                <h1 className='p-5 tittle text-4xl md:text-4xl sm:text-4xl font-bold'>Experiencia</h1>
+                <h1 className='p-5 tittle text-4xl md:text-4xl sm:text-4xl font-bold'>Experience</h1>
             </div>
             <div className='row'>
                 <div className="flex flex-col items-center justify-center">
