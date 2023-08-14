@@ -3,7 +3,7 @@ import 'animate.css';
 import sequalize from "../assets/sequelize-svgrepo-com.svg"
 const Stack = () => {
     return (
-        <div>
+        <div id='sobremi'>
 
             <div>
                 <h1 className='p-5 tittle text-4xl md:text-4xl sm:text-4xl font-bold'>Mi Stack</h1>

@@ -43,14 +43,21 @@ const NavBar = () => {
             id="navbar-default"
           >
             <ul className={`text-2xl font-medium flex flex-col items-center md:p-0 rounded-lg bg-gray-50 xl:text-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-dark`}>
-             
-                <div className='pb-2' >Sobre mi</div>
-             
+
               <a href='#proyectos'>
-              <div className='pb-2'>Proyectos</div>
+                <div className='pb-2'>Proyectos</div>
               </a>
-              <div className='pb-2'>Experiencia</div>
-              <div className='pb-2'>Educacion</div>
+              <a href='#experiencia'>
+                <div className='pb-2'>Experiencia</div>
+
+              </a>
+              <a href='#educacion'>
+
+                <div className='pb-2'>Educacion</div>
+              </a>
+              <a href='#contacto'>
+                <div className='pb-2' >Contactame</div>
+              </a>
               <div className="flex items-center">
                 <a className='p-2' target="_blank" href='https://www.linkedin.com/in/aron-resnicoff-333b2a215/'>
                   <AiFillLinkedin size={37} />

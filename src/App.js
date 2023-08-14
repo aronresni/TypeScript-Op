@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import Proyectos from './components/Proyectos/Proyectos';
 import Educacion from './components/Educacion';
 import Experiencia from './components/Experiencia';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App select-none">
@@ -14,8 +15,9 @@ function App() {
       <Stack />
       <Proyectos />
       <Experiencia />
-      <Educacion />
+      <Contact />
       <Footer />
+
     </div>
   );
 }
