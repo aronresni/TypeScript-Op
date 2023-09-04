@@ -6,5 +6,13 @@
     "githubLink": "https://github.com/No-Country/c12-41-m-react-agregarback",
     "infoLink": "https://www.linkedin.com/feed/update/urn:li:activity:7091227382266626048/",
     "imageSrc": "../../assets/accesbank.png"
+  },
+  {
+    "title": "Raw E-commerce",
+    "description": "Freelance Work, Technologies: JavaScript React React Router Firebase Boostrap",
+    "deployLink": "https://ecommerce-8ktzs1kfp-aronresni.vercel.app/",
+    "githubLink": "https://github.com/aronresni/Ecommerce-Raw",
+    "infoLink": "https://www.linkedin.com/feed/update/urn:li:activity:7091227382266626048/",
+    "imageSrc": "../../assets/raw.png"
   }
 ]
