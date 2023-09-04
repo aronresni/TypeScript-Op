@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../assets/accesbank.png"
 
+
 const ProjectCard = ({ project }) => {
     return (
         <div className='max-w-sm rounded overflow-hidden shadow-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-dark flex hover:animate-pulse'>
