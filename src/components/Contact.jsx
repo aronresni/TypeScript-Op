@@ -70,7 +70,7 @@ const Contact = () => {
                             onChange={handleChange}
                         />
                     </div>
-                    <button type="submit" className='text-xl btn border-black rounded-lg  p-3  font-bold tittle'>Submit</button>
+                    <button type="submit" className='text-xl btn border-black rounded-lg  p-3  font-bold tittle '>Submit</button>
                 </form>
             </div>
 
