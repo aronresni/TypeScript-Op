@@ -21,9 +21,11 @@ const ProjectCard = ({ project }) => {
                     <a href={project.githubLink} target='_blank' rel='noopener noreferrer'>
                         <span className='inline-block bg-gray rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>Github</span>
                     </a>
-                    <a href={project.infoLink} target='_blank' rel='noopener noreferrer'>
-                        <span className='inline-block bg-gray rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>Mas Info</span>
-                    </a>
+                    {project.infoLink && (
+                        <a href={project.infoLink} target='_blank' rel='noopener noreferrer'>
+                            <span className='inline-block bg-gray rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>Mas Info</span>
+                        </a>
+                    )}
                 </div>
             </div>
         </div>
